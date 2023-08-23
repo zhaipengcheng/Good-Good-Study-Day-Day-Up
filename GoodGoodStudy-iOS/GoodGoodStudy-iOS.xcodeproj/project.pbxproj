@@ -14,6 +14,9 @@
 		625B1F152A91230200430313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625B1F142A91230200430313 /* Assets.xcassets */; };
 		625B1F182A91230200430313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625B1F162A91230200430313 /* LaunchScreen.storyboard */; };
 		625B1F1B2A91230200430313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F1A2A91230200430313 /* main.m */; };
+		625B1F232A91242F00430313 /* PropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F222A91242F00430313 /* PropertiesViewController.m */; };
+		625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F272A96187F00430313 /* YZSingletonViewController.m */; };
+		625B1F2B2A96189400430313 /* YZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F2A2A96189400430313 /* YZSingleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +32,12 @@
 		625B1F172A91230200430313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		625B1F192A91230200430313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625B1F1A2A91230200430313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		625B1F212A91242F00430313 /* PropertiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertiesViewController.h; sourceTree = "<group>"; };
+		625B1F222A91242F00430313 /* PropertiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertiesViewController.m; sourceTree = "<group>"; };
+		625B1F262A96187F00430313 /* YZSingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSingletonViewController.h; sourceTree = "<group>"; };
+		625B1F272A96187F00430313 /* YZSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSingletonViewController.m; sourceTree = "<group>"; };
+		625B1F292A96189400430313 /* YZSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSingleton.h; sourceTree = "<group>"; };
+		625B1F2A2A96189400430313 /* YZSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSingleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,8 @@
 				625B1F0C2A91230100430313 /* SceneDelegate.m */,
 				625B1F0E2A91230100430313 /* ViewController.h */,
 				625B1F0F2A91230100430313 /* ViewController.m */,
+				625B1F252A96185600430313 /* Singleton */,
+				625B1F242A91243300430313 /* Property */,
 				625B1F112A91230100430313 /* Main.storyboard */,
 				625B1F142A91230200430313 /* Assets.xcassets */,
 				625B1F162A91230200430313 /* LaunchScreen.storyboard */,
@@ -74,6 +85,26 @@
 				625B1F1A2A91230200430313 /* main.m */,
 			);
 			path = "GoodGoodStudy-iOS";
+			sourceTree = "<group>";
+		};
+		625B1F242A91243300430313 /* Property */ = {
+			isa = PBXGroup;
+			children = (
+				625B1F212A91242F00430313 /* PropertiesViewController.h */,
+				625B1F222A91242F00430313 /* PropertiesViewController.m */,
+			);
+			path = Property;
+			sourceTree = "<group>";
+		};
+		625B1F252A96185600430313 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				625B1F262A96187F00430313 /* YZSingletonViewController.h */,
+				625B1F272A96187F00430313 /* YZSingletonViewController.m */,
+				625B1F292A96189400430313 /* YZSingleton.h */,
+				625B1F2A2A96189400430313 /* YZSingleton.m */,
+			);
+			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -103,6 +134,7 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				CLASSPREFIX = YZ;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
 					625B1F042A91230100430313 = {
@@ -146,10 +178,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625B1F2B2A96189400430313 /* YZSingleton.m in Sources */,
 				625B1F102A91230100430313 /* ViewController.m in Sources */,
 				625B1F0A2A91230100430313 /* AppDelegate.m in Sources */,
 				625B1F1B2A91230200430313 /* main.m in Sources */,
 				625B1F0D2A91230100430313 /* SceneDelegate.m in Sources */,
+				625B1F232A91242F00430313 /* PropertiesViewController.m in Sources */,
+				625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
