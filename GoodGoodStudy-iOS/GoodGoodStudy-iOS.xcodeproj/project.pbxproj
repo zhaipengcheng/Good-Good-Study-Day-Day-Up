@@ -17,6 +17,9 @@
 		625B1F232A91242F00430313 /* PropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F222A91242F00430313 /* PropertiesViewController.m */; };
 		625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F272A96187F00430313 /* YZSingletonViewController.m */; };
 		625B1F2B2A96189400430313 /* YZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F2A2A96189400430313 /* YZSingleton.m */; };
+		625B1F7D2A9C52BD00430313 /* YZAVAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F7C2A9C52BD00430313 /* YZAVAudioViewController.m */; };
+		625B1F812A9DC74F00430313 /* YZThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F802A9DC74F00430313 /* YZThreadSafeDictionary.m */; };
+		625B1F842A9DD31D00430313 /* YZThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +41,12 @@
 		625B1F272A96187F00430313 /* YZSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSingletonViewController.m; sourceTree = "<group>"; };
 		625B1F292A96189400430313 /* YZSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSingleton.h; sourceTree = "<group>"; };
 		625B1F2A2A96189400430313 /* YZSingleton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSingleton.m; sourceTree = "<group>"; };
+		625B1F7B2A9C52BD00430313 /* YZAVAudioViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAVAudioViewController.h; sourceTree = "<group>"; };
+		625B1F7C2A9C52BD00430313 /* YZAVAudioViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAVAudioViewController.m; sourceTree = "<group>"; };
+		625B1F7F2A9DC74F00430313 /* YZThreadSafeDictionary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZThreadSafeDictionary.h; sourceTree = "<group>"; };
+		625B1F802A9DC74F00430313 /* YZThreadSafeDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZThreadSafeDictionary.m; sourceTree = "<group>"; };
+		625B1F822A9DD31D00430313 /* YZThreadSafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZThreadSafeArray.h; sourceTree = "<group>"; };
+		625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZThreadSafeArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +79,8 @@
 		625B1F072A91230100430313 /* GoodGoodStudy-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				625B1F7E2A9DC73100430313 /* ThreadSafeClass */,
+				625B1F7A2A9C527800430313 /* AVFoundation */,
 				625B1F082A91230100430313 /* AppDelegate.h */,
 				625B1F092A91230100430313 /* AppDelegate.m */,
 				625B1F0B2A91230100430313 /* SceneDelegate.h */,
@@ -105,6 +116,26 @@
 				625B1F2A2A96189400430313 /* YZSingleton.m */,
 			);
 			path = Singleton;
+			sourceTree = "<group>";
+		};
+		625B1F7A2A9C527800430313 /* AVFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				625B1F7B2A9C52BD00430313 /* YZAVAudioViewController.h */,
+				625B1F7C2A9C52BD00430313 /* YZAVAudioViewController.m */,
+			);
+			path = AVFoundation;
+			sourceTree = "<group>";
+		};
+		625B1F7E2A9DC73100430313 /* ThreadSafeClass */ = {
+			isa = PBXGroup;
+			children = (
+				625B1F7F2A9DC74F00430313 /* YZThreadSafeDictionary.h */,
+				625B1F802A9DC74F00430313 /* YZThreadSafeDictionary.m */,
+				625B1F822A9DD31D00430313 /* YZThreadSafeArray.h */,
+				625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */,
+			);
+			path = ThreadSafeClass;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,8 +214,11 @@
 				625B1F0A2A91230100430313 /* AppDelegate.m in Sources */,
 				625B1F1B2A91230200430313 /* main.m in Sources */,
 				625B1F0D2A91230100430313 /* SceneDelegate.m in Sources */,
+				625B1F812A9DC74F00430313 /* YZThreadSafeDictionary.m in Sources */,
 				625B1F232A91242F00430313 /* PropertiesViewController.m in Sources */,
 				625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */,
+				625B1F7D2A9C52BD00430313 /* YZAVAudioViewController.m in Sources */,
+				625B1F842A9DD31D00430313 /* YZThreadSafeArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
