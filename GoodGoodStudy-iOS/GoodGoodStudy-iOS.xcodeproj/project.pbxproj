@@ -20,6 +20,7 @@
 		625B1F7D2A9C52BD00430313 /* YZAVAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F7C2A9C52BD00430313 /* YZAVAudioViewController.m */; };
 		625B1F812A9DC74F00430313 /* YZThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F802A9DC74F00430313 /* YZThreadSafeDictionary.m */; };
 		625B1F842A9DD31D00430313 /* YZThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */; };
+		625B1F872A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F862A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +48,8 @@
 		625B1F802A9DC74F00430313 /* YZThreadSafeDictionary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZThreadSafeDictionary.m; sourceTree = "<group>"; };
 		625B1F822A9DD31D00430313 /* YZThreadSafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZThreadSafeArray.h; sourceTree = "<group>"; };
 		625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZThreadSafeArray.m; sourceTree = "<group>"; };
+		625B1F852A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSemaphoreThreadSafeArray.h; sourceTree = "<group>"; };
+		625B1F862A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSemaphoreThreadSafeArray.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +137,8 @@
 				625B1F802A9DC74F00430313 /* YZThreadSafeDictionary.m */,
 				625B1F822A9DD31D00430313 /* YZThreadSafeArray.h */,
 				625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */,
+				625B1F852A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.h */,
+				625B1F862A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m */,
 			);
 			path = ThreadSafeClass;
 			sourceTree = "<group>";
@@ -219,6 +224,7 @@
 				625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */,
 				625B1F7D2A9C52BD00430313 /* YZAVAudioViewController.m in Sources */,
 				625B1F842A9DD31D00430313 /* YZThreadSafeArray.m in Sources */,
+				625B1F872A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
