@@ -21,6 +21,9 @@
 		625B1F812A9DC74F00430313 /* YZThreadSafeDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F802A9DC74F00430313 /* YZThreadSafeDictionary.m */; };
 		625B1F842A9DD31D00430313 /* YZThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */; };
 		625B1F872A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F862A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m */; };
+		625B1F8B2A9DE4BE00430313 /* YZAttributedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F8A2A9DE4BE00430313 /* YZAttributedViewController.m */; };
+		625B1F8F2A9F275700430313 /* YZAlgorithmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F8E2A9F275700430313 /* YZAlgorithmTableViewController.m */; };
+		625B1F922A9F282B00430313 /* YZAlgorithmIPV4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +53,12 @@
 		625B1F832A9DD31D00430313 /* YZThreadSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZThreadSafeArray.m; sourceTree = "<group>"; };
 		625B1F852A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSemaphoreThreadSafeArray.h; sourceTree = "<group>"; };
 		625B1F862A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSemaphoreThreadSafeArray.m; sourceTree = "<group>"; };
+		625B1F892A9DE4BE00430313 /* YZAttributedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAttributedViewController.h; sourceTree = "<group>"; };
+		625B1F8A2A9DE4BE00430313 /* YZAttributedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAttributedViewController.m; sourceTree = "<group>"; };
+		625B1F8D2A9F275700430313 /* YZAlgorithmTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAlgorithmTableViewController.h; sourceTree = "<group>"; };
+		625B1F8E2A9F275700430313 /* YZAlgorithmTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAlgorithmTableViewController.m; sourceTree = "<group>"; };
+		625B1F902A9F282B00430313 /* YZAlgorithmIPV4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAlgorithmIPV4ViewController.h; sourceTree = "<group>"; };
+		625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAlgorithmIPV4ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,8 @@
 		625B1F072A91230100430313 /* GoodGoodStudy-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				625B1F8C2A9F272E00430313 /* Algorithm */,
+				625B1F882A9DE4A500430313 /* Attr */,
 				625B1F7E2A9DC73100430313 /* ThreadSafeClass */,
 				625B1F7A2A9C527800430313 /* AVFoundation */,
 				625B1F082A91230100430313 /* AppDelegate.h */,
@@ -141,6 +152,26 @@
 				625B1F862A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m */,
 			);
 			path = ThreadSafeClass;
+			sourceTree = "<group>";
+		};
+		625B1F882A9DE4A500430313 /* Attr */ = {
+			isa = PBXGroup;
+			children = (
+				625B1F892A9DE4BE00430313 /* YZAttributedViewController.h */,
+				625B1F8A2A9DE4BE00430313 /* YZAttributedViewController.m */,
+			);
+			path = Attr;
+			sourceTree = "<group>";
+		};
+		625B1F8C2A9F272E00430313 /* Algorithm */ = {
+			isa = PBXGroup;
+			children = (
+				625B1F8D2A9F275700430313 /* YZAlgorithmTableViewController.h */,
+				625B1F8E2A9F275700430313 /* YZAlgorithmTableViewController.m */,
+				625B1F902A9F282B00430313 /* YZAlgorithmIPV4ViewController.h */,
+				625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */,
+			);
+			path = Algorithm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -216,13 +247,16 @@
 			files = (
 				625B1F2B2A96189400430313 /* YZSingleton.m in Sources */,
 				625B1F102A91230100430313 /* ViewController.m in Sources */,
+				625B1F922A9F282B00430313 /* YZAlgorithmIPV4ViewController.m in Sources */,
 				625B1F0A2A91230100430313 /* AppDelegate.m in Sources */,
+				625B1F8F2A9F275700430313 /* YZAlgorithmTableViewController.m in Sources */,
 				625B1F1B2A91230200430313 /* main.m in Sources */,
 				625B1F0D2A91230100430313 /* SceneDelegate.m in Sources */,
 				625B1F812A9DC74F00430313 /* YZThreadSafeDictionary.m in Sources */,
 				625B1F232A91242F00430313 /* PropertiesViewController.m in Sources */,
 				625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */,
 				625B1F7D2A9C52BD00430313 /* YZAVAudioViewController.m in Sources */,
+				625B1F8B2A9DE4BE00430313 /* YZAttributedViewController.m in Sources */,
 				625B1F842A9DD31D00430313 /* YZThreadSafeArray.m in Sources */,
 				625B1F872A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m in Sources */,
 			);

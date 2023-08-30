@@ -44,21 +44,21 @@ static YZSingleton *instance = nil;
 }
 
 
-+ (id)allocWithZone:(struct _NSZone *)zone {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        instance = [[YZSingleton alloc] init];
-    });
-    return instance;
-}
-
-- (instancetype)copyWithZone:(NSZone *)zone {
-//    return [YZSingleton sharedSingleton];
-    return instance;
-}
-
-- (instancetype)mutableCopyWithZone:(NSZone *)zone {
-//    return [YZSingleton sharedSingleton];
-    return instance;
-}
+//+ (id)allocWithZone:(struct _NSZone *)zone {
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        instance = [[YZSingleton alloc] init];
+//    });
+//    return instance;
+//}
+//
+//- (instancetype)copyWithZone:(NSZone *)zone {
+////    return [YZSingleton sharedSingleton];
+//    return instance;
+//}
+//
+//- (instancetype)mutableCopyWithZone:(NSZone *)zone {
+////    return [YZSingleton sharedSingleton];
+//    return instance;
+//}
 @end
