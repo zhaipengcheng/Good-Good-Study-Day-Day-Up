@@ -14,7 +14,7 @@
 		625B1F152A91230200430313 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 625B1F142A91230200430313 /* Assets.xcassets */; };
 		625B1F182A91230200430313 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 625B1F162A91230200430313 /* LaunchScreen.storyboard */; };
 		625B1F1B2A91230200430313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F1A2A91230200430313 /* main.m */; };
-		625B1F232A91242F00430313 /* PropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F222A91242F00430313 /* PropertiesViewController.m */; };
+		625B1F232A91242F00430313 /* YZPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F222A91242F00430313 /* YZPropertiesViewController.m */; };
 		625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F272A96187F00430313 /* YZSingletonViewController.m */; };
 		625B1F2B2A96189400430313 /* YZSingleton.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F2A2A96189400430313 /* YZSingleton.m */; };
 		625B1F7D2A9C52BD00430313 /* YZAVAudioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F7C2A9C52BD00430313 /* YZAVAudioViewController.m */; };
@@ -24,6 +24,7 @@
 		625B1F8B2A9DE4BE00430313 /* YZAttributedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F8A2A9DE4BE00430313 /* YZAttributedViewController.m */; };
 		625B1F8F2A9F275700430313 /* YZAlgorithmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F8E2A9F275700430313 /* YZAlgorithmTableViewController.m */; };
 		625B1F922A9F282B00430313 /* YZAlgorithmIPV4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */; };
+		625B1FBB2AAB095000430313 /* YZPropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1FBA2AAB095000430313 /* YZPropertyModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,8 +40,8 @@
 		625B1F172A91230200430313 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		625B1F192A91230200430313 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		625B1F1A2A91230200430313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		625B1F212A91242F00430313 /* PropertiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PropertiesViewController.h; sourceTree = "<group>"; };
-		625B1F222A91242F00430313 /* PropertiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PropertiesViewController.m; sourceTree = "<group>"; };
+		625B1F212A91242F00430313 /* YZPropertiesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPropertiesViewController.h; sourceTree = "<group>"; };
+		625B1F222A91242F00430313 /* YZPropertiesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPropertiesViewController.m; sourceTree = "<group>"; };
 		625B1F262A96187F00430313 /* YZSingletonViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSingletonViewController.h; sourceTree = "<group>"; };
 		625B1F272A96187F00430313 /* YZSingletonViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZSingletonViewController.m; sourceTree = "<group>"; };
 		625B1F292A96189400430313 /* YZSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZSingleton.h; sourceTree = "<group>"; };
@@ -59,6 +60,8 @@
 		625B1F8E2A9F275700430313 /* YZAlgorithmTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAlgorithmTableViewController.m; sourceTree = "<group>"; };
 		625B1F902A9F282B00430313 /* YZAlgorithmIPV4ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZAlgorithmIPV4ViewController.h; sourceTree = "<group>"; };
 		625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAlgorithmIPV4ViewController.m; sourceTree = "<group>"; };
+		625B1FB92AAB095000430313 /* YZPropertyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPropertyModel.h; sourceTree = "<group>"; };
+		625B1FBA2AAB095000430313 /* YZPropertyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPropertyModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +94,7 @@
 		625B1F072A91230100430313 /* GoodGoodStudy-iOS */ = {
 			isa = PBXGroup;
 			children = (
+				625B1FBC2AAF4EA600430313 /* Block */,
 				625B1F8C2A9F272E00430313 /* Algorithm */,
 				625B1F882A9DE4A500430313 /* Attr */,
 				625B1F7E2A9DC73100430313 /* ThreadSafeClass */,
@@ -115,8 +119,10 @@
 		625B1F242A91243300430313 /* Property */ = {
 			isa = PBXGroup;
 			children = (
-				625B1F212A91242F00430313 /* PropertiesViewController.h */,
-				625B1F222A91242F00430313 /* PropertiesViewController.m */,
+				625B1F212A91242F00430313 /* YZPropertiesViewController.h */,
+				625B1F222A91242F00430313 /* YZPropertiesViewController.m */,
+				625B1FB92AAB095000430313 /* YZPropertyModel.h */,
+				625B1FBA2AAB095000430313 /* YZPropertyModel.m */,
 			);
 			path = Property;
 			sourceTree = "<group>";
@@ -172,6 +178,13 @@
 				625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */,
 			);
 			path = Algorithm;
+			sourceTree = "<group>";
+		};
+		625B1FBC2AAF4EA600430313 /* Block */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Block;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -252,8 +265,9 @@
 				625B1F8F2A9F275700430313 /* YZAlgorithmTableViewController.m in Sources */,
 				625B1F1B2A91230200430313 /* main.m in Sources */,
 				625B1F0D2A91230100430313 /* SceneDelegate.m in Sources */,
+				625B1FBB2AAB095000430313 /* YZPropertyModel.m in Sources */,
 				625B1F812A9DC74F00430313 /* YZThreadSafeDictionary.m in Sources */,
-				625B1F232A91242F00430313 /* PropertiesViewController.m in Sources */,
+				625B1F232A91242F00430313 /* YZPropertiesViewController.m in Sources */,
 				625B1F282A96187F00430313 /* YZSingletonViewController.m in Sources */,
 				625B1F7D2A9C52BD00430313 /* YZAVAudioViewController.m in Sources */,
 				625B1F8B2A9DE4BE00430313 /* YZAttributedViewController.m in Sources */,

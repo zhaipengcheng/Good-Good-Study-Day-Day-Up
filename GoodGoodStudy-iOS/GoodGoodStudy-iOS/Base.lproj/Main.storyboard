@@ -280,7 +280,7 @@
         <!--属性-->
         <scene sceneID="NPH-xD-GOh">
             <objects>
-                <viewController id="8j6-OU-OD3" customClass="PropertiesViewController" sceneMemberID="viewController">
+                <viewController id="8j6-OU-OD3" customClass="YZPropertiesViewController" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="2cU-3l-IQO">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
