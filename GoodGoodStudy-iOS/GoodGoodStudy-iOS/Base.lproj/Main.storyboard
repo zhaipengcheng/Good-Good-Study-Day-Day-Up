@@ -122,7 +122,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="富文本" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ahM-pB-SCh">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Blcok" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ahM-pB-SCh">
                                                     <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
@@ -131,6 +131,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="BrL-Ie-xGe" kind="show" id="h4p-Vu-oWu"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="f9b-Qn-YyZ" style="IBUITableViewCellStyleDefault" id="cmh-4y-CLl">
                                         <rect key="frame" x="0.0" y="268.33333969116211" width="393" height="43.666667938232422"/>
@@ -413,6 +416,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G63-re-daX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="677" y="-2352"/>
+        </scene>
+        <!--Block-->
+        <scene sceneID="FQr-26-NOR">
+            <objects>
+                <viewController id="BrL-Ie-xGe" customClass="YZBlockViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="R82-gX-LO4">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Ul2-30-atb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Block" id="goW-af-mBq"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9P2-GX-LuI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="805" y="304"/>
         </scene>
     </scenes>
     <resources>

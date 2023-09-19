@@ -25,6 +25,8 @@
 		625B1F8F2A9F275700430313 /* YZAlgorithmTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F8E2A9F275700430313 /* YZAlgorithmTableViewController.m */; };
 		625B1F922A9F282B00430313 /* YZAlgorithmIPV4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */; };
 		625B1FBB2AAB095000430313 /* YZPropertyModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1FBA2AAB095000430313 /* YZPropertyModel.m */; };
+		625B1FBF2AAF4EED00430313 /* YZBlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1FBE2AAF4EED00430313 /* YZBlockViewController.m */; };
+		625B1FC22AAF4EFB00430313 /* YZBlockModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 625B1FC12AAF4EFB00430313 /* YZBlockModel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -62,6 +64,10 @@
 		625B1F912A9F282B00430313 /* YZAlgorithmIPV4ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZAlgorithmIPV4ViewController.m; sourceTree = "<group>"; };
 		625B1FB92AAB095000430313 /* YZPropertyModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZPropertyModel.h; sourceTree = "<group>"; };
 		625B1FBA2AAB095000430313 /* YZPropertyModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZPropertyModel.m; sourceTree = "<group>"; };
+		625B1FBD2AAF4EED00430313 /* YZBlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBlockViewController.h; sourceTree = "<group>"; };
+		625B1FBE2AAF4EED00430313 /* YZBlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBlockViewController.m; sourceTree = "<group>"; };
+		625B1FC02AAF4EFB00430313 /* YZBlockModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YZBlockModel.h; sourceTree = "<group>"; };
+		625B1FC12AAF4EFB00430313 /* YZBlockModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YZBlockModel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -183,6 +189,10 @@
 		625B1FBC2AAF4EA600430313 /* Block */ = {
 			isa = PBXGroup;
 			children = (
+				625B1FBD2AAF4EED00430313 /* YZBlockViewController.h */,
+				625B1FBE2AAF4EED00430313 /* YZBlockViewController.m */,
+				625B1FC02AAF4EFB00430313 /* YZBlockModel.h */,
+				625B1FC12AAF4EFB00430313 /* YZBlockModel.m */,
 			);
 			path = Block;
 			sourceTree = "<group>";
@@ -261,6 +271,7 @@
 				625B1F2B2A96189400430313 /* YZSingleton.m in Sources */,
 				625B1F102A91230100430313 /* ViewController.m in Sources */,
 				625B1F922A9F282B00430313 /* YZAlgorithmIPV4ViewController.m in Sources */,
+				625B1FC22AAF4EFB00430313 /* YZBlockModel.m in Sources */,
 				625B1F0A2A91230100430313 /* AppDelegate.m in Sources */,
 				625B1F8F2A9F275700430313 /* YZAlgorithmTableViewController.m in Sources */,
 				625B1F1B2A91230200430313 /* main.m in Sources */,
@@ -273,6 +284,7 @@
 				625B1F8B2A9DE4BE00430313 /* YZAttributedViewController.m in Sources */,
 				625B1F842A9DD31D00430313 /* YZThreadSafeArray.m in Sources */,
 				625B1F872A9DDE0A00430313 /* YZSemaphoreThreadSafeArray.m in Sources */,
+				625B1FBF2AAF4EED00430313 /* YZBlockViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
