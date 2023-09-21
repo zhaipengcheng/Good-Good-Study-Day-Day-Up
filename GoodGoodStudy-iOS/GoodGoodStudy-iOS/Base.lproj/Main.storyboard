@@ -24,6 +24,22 @@
             </objects>
             <point key="canvasLocation" x="756.48854961832058" y="-545.07042253521126"/>
         </scene>
+        <!--KVO-->
+        <scene sceneID="y82-rx-3FR">
+            <objects>
+                <viewController id="Qsj-Nz-t50" customClass="YZKVOKVCViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9ER-Fq-a8Y">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="Q9G-JO-UCL"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="KVO" id="ZJU-9H-cNa"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UQa-ny-BWa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="844" y="-208"/>
+        </scene>
         <!--Table View Controller-->
         <scene sceneID="5tW-dQ-eAw">
             <objects>
@@ -142,7 +158,7 @@
                                             <rect key="frame" x="0.0" y="0.0" width="393" height="43.666667938232422"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="富文本" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f9b-Qn-YyZ">
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="KVO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="f9b-Qn-YyZ">
                                                     <rect key="frame" x="20" y="0.0" width="353" height="43.666667938232422"/>
                                                     <autoresizingMask key="autoresizingMask"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
@@ -151,6 +167,9 @@
                                                 </label>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="Qsj-Nz-t50" kind="show" id="z2x-ld-LSM"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" textLabel="sHs-0v-72F" style="IBUITableViewCellStyleDefault" id="Zs8-H5-A2t">
                                         <rect key="frame" x="0.0" y="312.00000762939453" width="393" height="43.666667938232422"/>

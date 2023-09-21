@@ -160,6 +160,7 @@ typedef void (^ResultBlock)(NSInteger);
             [strongSelf test1];
         }
     };
+    weakBlock2();
     
     
 #pragma mark - block作为参数
